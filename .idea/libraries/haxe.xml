@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="haxe" type="Haxe">
+    <CLASSES>
+      <root url="file:///usr/local/lib/haxe" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
