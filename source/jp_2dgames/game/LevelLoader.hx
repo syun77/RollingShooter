@@ -1,4 +1,4 @@
-package ;
+package jp_2dgames.game;
 
 import flixel.addons.editors.tiled.TiledTileLayer;
 import flixel.addons.editors.tiled.TiledMap;
@@ -15,7 +15,7 @@ class LevelLoader {
     var mainLayer:TiledTileLayer = cast tileMap.getLayer("main");
 
     var map = new FlxTilemap();
-    map.loadMapFromArray(mainLayer.tileArray, tileMap.width, tileMap.height, AssetPaths.tileset__png, 32, 32, 1);
+    map.loadMapFromArray(mainLayer.tileArray, tileMap.width, tileMap.height, "assets/data/level/tileset.png", 32, 32, 1);
 
     return map;
   }

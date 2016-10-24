@@ -1,4 +1,4 @@
-package ;
+package jp_2dgames.game.token;
 import flixel.math.FlxPoint;
 import flixel.FlxG;
 import flixel.util.FlxColor;
@@ -21,6 +21,13 @@ class Player extends FlxSprite {
   public function new(X:Float, Y:Float) {
     super(X, Y);
     makeGraphic(16, 16, FlxColor.WHITE);
+  }
+
+  /**
+   * 消滅
+   **/
+  public function vanish():Void {
+    super.kill();
   }
 
   /**
